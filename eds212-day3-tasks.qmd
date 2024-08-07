@@ -1,0 +1,32 @@
+---
+title: "EDS 212 Day 3 Tasks"
+author: "Josephine Cardelle"
+format: html
+editor: visual
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+# create vectors a and b
+
+vec_a <- c(1, 6)
+vec_b <- c(2, 4)
+
+# return them
+vec_a
+vec_b
+
+# addition
+vec_a + vec_b
+
+# subtraction
+vec_b - vec_a
+
+# scalar multiplication
+2 * vec_a
+
+# dot product
+vec_a %*% vec_b
+```
+
